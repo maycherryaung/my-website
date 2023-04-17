@@ -1,0 +1,28 @@
+body {
+    margin: 0 200px;
+}
+
+.header {
+    display: flex;
+    background-color: rgba(96, 45, 140, 0.628);
+    align-items: center;
+    padding: 0 28px;
+}
+
+ul {
+    margin-left: auto;
+    display: flex;
+    list-style-type: none;
+    padding: 18px;
+    gap: 38px;
+}
+
+img {
+    padding: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
