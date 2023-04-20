@@ -1,12 +1,13 @@
-body {
-    margin: 0 200px;
-}
-
 .header {
     display: flex;
-    background-color: rgba(96, 45, 140, 0.628);
+    flex-direction: column;
+    background-color: #1D2937;
+    padding: 0 18rem;
+}
+
+.logo-container{
+    display: flex;
     align-items: center;
-    padding: 0 28px;
 }
 
 ul {
@@ -28,7 +29,42 @@ a {
 
 }
 
-.header div {
+#logo-text {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.text-img-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+    margin-top: 4rem;
+}
+
+.text-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+#bold-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+#second-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button-1 {
+    background-color: #3882f6;
+    padding: 4px 14px;
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    border-style: groove;
 }
