@@ -90,6 +90,7 @@ a {
     gap: 4rem;
     width: 140px;
     margin-bottom: 8rem;
+}
 
 .img-des-box {
     display: flex;
@@ -109,4 +110,29 @@ a {
     color: #46474b;
     text-align: center;
     text-align-last: center;
+}
+
+.xx {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    text-align: justify;
+    width: 800px;
+    font-style: italic;
+    font-weight: light;
+    margin-top: 8rem;
+}
+
+.name {
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 34rem;
+    margin-top: -2rem;
+    margin-bottom: 8rem;
 }
