@@ -112,7 +112,7 @@ a {
     text-align-last: center;
 }
 
-.xx {
+.quote-container {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
