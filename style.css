@@ -29,9 +29,10 @@ a {
 
 }
 
-#logo-text {
-    font-size: 24px;
-    color: #f9faf8;
+.logo-image {
+
+    width: 80px;
+    height: 80px;
 }
 
 .text-img-container {
